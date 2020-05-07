@@ -1,19 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Icon from "./icon";
 import "./styles.css";
-import sprite from "./sprite.svg";
 
 function App() {
   return (
     <div className="App">
-      <img src={sprite} alt="dsfs" />
-      <p>Here we should see a triangle and a circle</p>
-      <svg viewBox="0 0 28.3 28.3" className="App-icon">
-        <use xlinkHref={`${sprite}#circle`} />
-      </svg>
-      <svg viewBox="0 0 28.3 28.3" className="App-icon">
-        <use xlinkHref={`${sprite}#circle`} />
-      </svg>
+      <Icon className="icon1" type="square" />
+      <Icon className="icon2" type="circle" />
     </div>
   );
 }
