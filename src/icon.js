@@ -3,7 +3,7 @@ import sprite from "./sprite.svg";
 
 const Icon = ({ className, type }) => (
   <svg className={className}>
-    <use xlinkHref={`${sprite}#${type}`} />
+    <use href={`${sprite}#${type}`} />
   </svg>
 );
 
