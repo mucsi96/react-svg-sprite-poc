@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Icon from "./icon";
+import Icon from "./Icon";
 import "./styles.css";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Icon className="icon1" type="square" />
       <Icon className="icon2" type="circle" />
+      <Icon className="icon3" type="circle2" />
     </div>
   );
 }
